@@ -180,15 +180,11 @@
       ]
     },
     {
-      "SlotName": "Back",
-      "Items": []
-    },
-    {
       "SlotName": "Vest",
       "Items": [
         {
           "ClassName": "MMG_MK_III_Armor_alpine",
-          "Chance": 0.3000000238418579,
+          "Chance": 1.0,
           "Quantity": {
             "Min": 0.0,
             "Max": 0.0
@@ -245,7 +241,7 @@
                 },
                 {
                   "ClassName": "rgd5grenade",
-                  "Chance": 0.50,
+                  "Chance": 0.75,
                   "Quantity": {
                     "Min": 0.0,
                     "Max": 0.0
@@ -265,7 +261,7 @@
         },
         {
           "ClassName": "MMG_MK_V_Armor_alpine",
-          "Chance": 0.1500000238418579,
+          "Chance": 1.0,
           "Quantity": {
             "Min": 0.0,
             "Max": 0.0
@@ -426,7 +422,7 @@
         },
         {
           "ClassName": "MMG_tt_Vest_alpine",
-          "Chance": 0.3500000238418579,
+          "Chance": 1.0,
           "Quantity": {
             "Min": 0.0,
             "Max": 0.0
@@ -542,7 +538,7 @@
         },
         {
           "ClassName": "MMG_JPC_Vest_alpine",
-          "Chance": 0.7000000238418579,
+          "Chance": 1.0,
           "Quantity": {
             "Min": 0.0,
             "Max": 0.0
@@ -668,7 +664,7 @@
               "Items": [
                 {
                   "ClassName": "mmg_gp_nvg_green",
-                  "Chance": 0.4000000059604645,
+                  "Chance": 1.000,
                   "Quantity": {
                     "Min": 0.0,
                     "Max": 0.0
@@ -731,7 +727,7 @@
               "Items": [
                 {
                   "ClassName": "mmg_gp_nvg_green",
-                  "Chance": 0.4000000059604645,
+                  "Chance": 1.000,
                   "Quantity": {
                     "Min": 0.0,
                     "Max": 0.0
@@ -770,6 +766,25 @@
               ]
             }
           ],
+          "InventoryCargo": [],
+          "ConstructionPartsBuilt": [],
+          "Sets": []
+        },
+        {
+          "ClassName": "mm_maska_helmet_black",
+          "Chance": 1,
+          "Quantity": {
+            "Min": 0,
+            "Max": 0
+          },
+          "Health": [
+            {
+              "Min": 0.7,
+              "Max": 1,
+              "Zone": ""
+            }
+          ],
+          "InventoryAttachments": [],
           "InventoryCargo": [],
           "ConstructionPartsBuilt": [],
           "Sets": []
@@ -862,7 +877,7 @@
       "Items": [
         {
           "ClassName": "MMG_falcon_b1_belt_alpine",
-          "Chance": 0.5000000238418579,
+          "Chance": 1.0,
           "Quantity": {
             "Min": 0.0,
             "Max": 0.0
@@ -886,7 +901,32 @@
                     "Max": 0.0
                   },
                   "Health": [],
-                  "InventoryAttachments": [],
+                  "InventoryAttachments": [
+                    {
+                      "SlotName": "",
+                      "Items": [
+                        {
+                          "ClassName": "New Item, Replace me.",
+                          "Chance": 1,
+                          "Quantity": {
+                            "Min": 0,
+                            "Max": 0
+                          },
+                          "Health": [
+                            {
+                              "Min": 0.7,
+                              "Max": 1,
+                              "Zone": ""
+                            }
+                          ],
+                          "InventoryAttachments": [],
+                          "InventoryCargo": [],
+                          "ConstructionPartsBuilt": [],
+                          "Sets": []
+                        }
+                      ]
+                    }
+                  ],
                   "InventoryCargo": [],
                   "ConstructionPartsBuilt": [],
                   "Sets": []
@@ -926,7 +966,21 @@
                   },
                   "Health": [],
                   "InventoryAttachments": [],
-                  "InventoryCargo": [],
+                  "InventoryCargo": [
+                    {
+                      "ClassName": "CombatKnife",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ],
                   "ConstructionPartsBuilt": [],
                   "Sets": []
                 },
@@ -1009,29 +1063,12 @@
           "Sets": []
         }
       ]
-    },
-    {
-      "SlotName": "Hands",
-      "Items": []
     }
   ],
   "InventoryCargo": [
     {
       "ClassName": "Apple",
       "Chance": 0.10000000149011612,
-      "Quantity": {
-        "Min": 0.0,
-        "Max": 0.0
-      },
-      "Health": [],
-      "InventoryAttachments": [],
-      "InventoryCargo": [],
-      "ConstructionPartsBuilt": [],
-      "Sets": []
-    },
-    {
-      "ClassName": "BandageDressing",
-      "Chance": 0.15000000596046449,
       "Quantity": {
         "Min": 0.0,
         "Max": 0.0
@@ -1074,7 +1111,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_Scout_5Rnd",
+                  "ClassName": "SNAFUT5000_Mag",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1087,7 +1124,7 @@
                   "Sets": []
                 },
                 {
-                  "ClassName": "Mag_Scout_5Rnd",
+                  "ClassName": "SNAFUT5000_Mag",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1133,7 +1170,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_Scout_5Rnd",
+                  "ClassName": "SNAFUT5000_Mag",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1146,7 +1183,7 @@
                   "Sets": []
                 },
                 {
-                  "ClassName": "Mag_Scout_5Rnd",
+                  "ClassName": "SNAFUT5000_Mag",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1192,7 +1229,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_Scout_5Rnd",
+                  "ClassName": "SNAFUT5000_Mag",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1205,66 +1242,7 @@
                   "Sets": []
                 },
                 {
-                  "ClassName": "Mag_Scout_5Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            },
-            {
-              "ClassName": "MMG_assault_pack_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_Scout_5Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_Scout_5Rnd",
+                  "ClassName": "SNAFUT5000_Mag",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1310,7 +1288,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_Scout_5Rnd",
+                  "ClassName": "SNAFUT5000_Mag",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1323,7 +1301,66 @@
                   "Sets": []
                 },
                 {
-                  "ClassName": "Mag_Scout_5Rnd",
+                  "ClassName": "SNAFUT5000_Mag",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                },
+                {
+                  "ClassName": "BandageDressing",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                }
+              ],
+              "ConstructionPartsBuilt": [],
+              "Sets": []
+            },
+            {
+              "ClassName": "MMG_assault_pack_alpine",
+              "Chance": 1,
+              "Quantity": {
+                "Min": 0,
+                "Max": 0
+              },
+              "Health": [
+                {
+                  "Min": 0.7,
+                  "Max": 1,
+                  "Zone": ""
+                }
+              ],
+              "InventoryAttachments": [],
+              "InventoryCargo": [
+                {
+                  "ClassName": "SNAFUT5000_Mag",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                },
+                {
+                  "ClassName": "SNAFUT5000_Mag",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1358,7 +1395,7 @@
           "SlotName": "Hands",
           "Items": [
             {
-              "ClassName": "Scout",
+              "ClassName": "SNAFUT5000_Snow_GUN",
               "Chance": 1,
               "Quantity": {
                 "Min": 0,
@@ -1376,69 +1413,7 @@
                   "SlotName": "",
                   "Items": [
                     {
-                      "ClassName": "Mag_Scout_5Rnd",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    }
-                  ]
-                },
-                {
-                  "SlotName": "",
-                  "Items": [
-                    {
-                      "ClassName": "ACOGOptic",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "ACOGOptic_6x",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "ReflexOptic",
+                      "ClassName": "SNAFU_Tango6T_Snow",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -1482,7 +1457,1050 @@
                       "Sets": []
                     },
                     {
-                      "ClassName": "M68Optic",
+                      "ClassName": "SNAFU_Kahles",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_Leupold_Mark8",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_Nightforce",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                },
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFUT5000_Mag",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                }
+              ],
+              "InventoryCargo": [],
+              "ConstructionPartsBuilt": [],
+              "Sets": []
+            },
+            {
+              "ClassName": "SNAFUT5000_Dkmcc_GUN",
+              "Chance": 1,
+              "Quantity": {
+                "Min": 0,
+                "Max": 0
+              },
+              "Health": [
+                {
+                  "Min": 0.7,
+                  "Max": 1,
+                  "Zone": ""
+                }
+              ],
+              "InventoryAttachments": [
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFU_Kahles",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_Tango6T_Tan",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_Nightforce",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_Leupold_Mark8",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                },
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFUT5000_Mag",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                }
+              ],
+              "InventoryCargo": [],
+              "ConstructionPartsBuilt": [],
+              "Sets": []
+            },
+            {
+              "ClassName": "SNAFUT5000_Wood_GUN",
+              "Chance": 1,
+              "Quantity": {
+                "Min": 0,
+                "Max": 0
+              },
+              "Health": [
+                {
+                  "Min": 0.7,
+                  "Max": 1,
+                  "Zone": ""
+                }
+              ],
+              "InventoryAttachments": [
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFU_Kahles",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_Tango6T_Wood",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_Nightforce",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_Leupold_Mark8",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                },
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFUT5000_Mag",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                }
+              ],
+              "InventoryCargo": [],
+              "ConstructionPartsBuilt": [],
+              "Sets": []
+            }
+          ]
+        }
+      ],
+      "InventoryCargo": [],
+      "ConstructionPartsBuilt": [],
+      "Sets": []
+    },
+    {
+      "ClassName": "",
+      "Chance": 1,
+      "Quantity": {
+        "Min": 0,
+        "Max": 0
+      },
+      "Health": [],
+      "InventoryAttachments": [
+        {
+          "SlotName": "Back",
+          "Items": [
+            {
+              "ClassName": "MMG_carrier_backpack_alpine",
+              "Chance": 1.000,
+              "Quantity": {
+                "Min": 0,
+                "Max": 0
+              },
+              "Health": [
+                {
+                  "Min": 0.7,
+                  "Max": 1,
+                  "Zone": ""
+                }
+              ],
+              "InventoryAttachments": [],
+              "InventoryCargo": [
+                {
+                  "ClassName": "SNAFU_Saint_Mag",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                },
+                {
+                  "ClassName": "SNAFU_Saint_Mag",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                },
+                {
+                  "ClassName": "BandageDressing",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                }
+              ],
+              "ConstructionPartsBuilt": [],
+              "Sets": []
+            },
+            {
+              "ClassName": "MMG_mmps_bag_alpine",
+              "Chance": 1.000,
+              "Quantity": {
+                "Min": 0,
+                "Max": 0
+              },
+              "Health": [
+                {
+                  "Min": 0.7,
+                  "Max": 1,
+                  "Zone": ""
+                }
+              ],
+              "InventoryAttachments": [],
+              "InventoryCargo": [
+                {
+                  "ClassName": "SNAFU_Saint_Mag",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                },
+                {
+                  "ClassName": "SNAFU_Saint_Mag",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                },
+                {
+                  "ClassName": "BandageDressing",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                }
+              ],
+              "ConstructionPartsBuilt": [],
+              "Sets": []
+            },
+            {
+              "ClassName": "MMG_supplybag_alpine",
+              "Chance": 1,
+              "Quantity": {
+                "Min": 0,
+                "Max": 0
+              },
+              "Health": [
+                {
+                  "Min": 0.7,
+                  "Max": 1,
+                  "Zone": ""
+                }
+              ],
+              "InventoryAttachments": [],
+              "InventoryCargo": [
+                {
+                  "ClassName": "SNAFU_Saint_Mag",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                },
+                {
+                  "ClassName": "SNAFU_Saint_Mag",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                },
+                {
+                  "ClassName": "BandageDressing",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                }
+              ],
+              "ConstructionPartsBuilt": [],
+              "Sets": []
+            },
+            {
+              "ClassName": "MMG_assault_pack_alpine",
+              "Chance": 1,
+              "Quantity": {
+                "Min": 0,
+                "Max": 0
+              },
+              "Health": [
+                {
+                  "Min": 0.7,
+                  "Max": 1,
+                  "Zone": ""
+                }
+              ],
+              "InventoryAttachments": [],
+              "InventoryCargo": [
+                {
+                  "ClassName": "SNAFU_Saint_Mag",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                },
+                {
+                  "ClassName": "SNAFU_Saint_Mag",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                },
+                {
+                  "ClassName": "BandageDressing",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                }
+              ],
+              "ConstructionPartsBuilt": [],
+              "Sets": []
+            },
+            {
+              "ClassName": "MMG_camelback_alpine",
+              "Chance": 1,
+              "Quantity": {
+                "Min": 0,
+                "Max": 0
+              },
+              "Health": [
+                {
+                  "Min": 0.7,
+                  "Max": 1,
+                  "Zone": ""
+                }
+              ],
+              "InventoryAttachments": [],
+              "InventoryCargo": [
+                {
+                  "ClassName": "SNAFU_Saint_Mag",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                },
+                {
+                  "ClassName": "SNAFU_Saint_Mag",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                },
+                {
+                  "ClassName": "BandageDressing",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 0,
+                    "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                }
+              ],
+              "ConstructionPartsBuilt": [],
+              "Sets": []
+            }
+          ]
+        },
+        {
+          "SlotName": "Hands",
+          "Items": [
+            {
+              "ClassName": "SNAFU_Saint_Gun",
+              "Chance": 1,
+              "Quantity": {
+                "Min": 0,
+                "Max": 0
+              },
+              "Health": [
+                {
+                  "Min": 0.7,
+                  "Max": 1,
+                  "Zone": ""
+                }
+              ],
+              "InventoryAttachments": [
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFU_Kahles",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_Tango6T_Snow",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                },
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFU_HG625",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -1501,7 +2519,469 @@
                       "Sets": []
                     },
                     {
-                      "ClassName": "StarlightOptic",
+                      "ClassName": "SNAFU_MK7",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_MK9",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_MK10",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                },
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFU_Standardized_Suppressor_Black",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_Standardized_Suppressor_Green",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_MPX_Suppressor_Black",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFUGevar_Suppressor_Green",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                },
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFU_FGKAC_Grip",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_AFG_02_Black",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_AFG_02_Tan",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_AFG_02_OD",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFUScar_AFG_BK",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFUScar_AFG_Tan",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                },
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFU_PistolGripColtA2",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_GIGripColtA2",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_TACGripColtA2_BK",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_TACGripColtA2_Grey",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_TACGripColtA2_OD",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_TACGripColtA2_Tan",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                },
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFU_M4SS_Stock",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_MK47_Stock",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_MOE_Stock",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_PRSGen3_Stock",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                },
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFU_Saint_Mag",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -1562,7 +3042,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_FAMAS_25Rnd",
+                  "ClassName": "Snafu_ScarH_25RND_Mag_Snow",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1575,7 +3055,7 @@
                   "Sets": []
                 },
                 {
-                  "ClassName": "Mag_FAMAS_25Rnd",
+                  "ClassName": "Snafu_ScarH_25RND_Mag_DKMC",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1621,7 +3101,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_FAMAS_25Rnd",
+                  "ClassName": "Snafu_ScarH_25RND_Mag_Tan",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1634,7 +3114,7 @@
                   "Sets": []
                 },
                 {
-                  "ClassName": "Mag_FAMAS_25Rnd",
+                  "ClassName": "Snafu_ScarH_25RND_Mag_OD",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1652,6 +3132,19 @@
                   "Quantity": {
                     "Min": 0,
                     "Max": 0
+                  },
+                  "Health": [],
+                  "InventoryAttachments": [],
+                  "InventoryCargo": [],
+                  "ConstructionPartsBuilt": [],
+                  "Sets": []
+                },
+                {
+                  "ClassName": "expansionbanknoteusd",
+                  "Chance": 1,
+                  "Quantity": {
+                    "Min": 1.0,
+                    "Max": 1.0
                   },
                   "Health": [],
                   "InventoryAttachments": [],
@@ -1680,7 +3173,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_FAMAS_25Rnd",
+                  "ClassName": "Snafu_ScarH_25RND_Mag_BK",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1693,7 +3186,7 @@
                   "Sets": []
                 },
                 {
-                  "ClassName": "Mag_FAMAS_25Rnd",
+                  "ClassName": "Snafu_ScarH_25RND_Mag_Snow",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1739,7 +3232,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_FAMAS_25Rnd",
+                  "ClassName": "Snafu_ScarH_25RND_Mag_OD",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1752,7 +3245,7 @@
                   "Sets": []
                 },
                 {
-                  "ClassName": "Mag_FAMAS_25Rnd",
+                  "ClassName": "Snafu_ScarH_25RND_Mag_Snow",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1798,7 +3291,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_FAMAS_25Rnd",
+                  "ClassName": "Snafu_ScarH_25RND_Mag_BK",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1811,7 +3304,7 @@
                   "Sets": []
                 },
                 {
-                  "ClassName": "Mag_FAMAS_25Rnd",
+                  "ClassName": "Snafu_ScarH_25RND_Mag_Snow",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1846,7 +3339,7 @@
           "SlotName": "Hands",
           "Items": [
             {
-              "ClassName": "FAMAS",
+              "ClassName": "Snafu_ScarH_Snow_GUN",
               "Chance": 1,
               "Quantity": {
                 "Min": 0,
@@ -1864,7 +3357,299 @@
                   "SlotName": "",
                   "Items": [
                     {
-                      "ClassName": "Mag_FAMAS_25Rnd",
+                      "ClassName": "GhillieAtt_Tan",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "GhillieAtt_Woodland",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "dzn_att_ghillie_winter",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                },
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFU_Tango6T_Snow",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [
+                        {
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
+                        }
+                      ],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                },
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFU_Standardized_Suppressor_Black",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_Standardized_Suppressor_Green",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFUGevar_Suppressor_Tan",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                },
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "SNAFU_AFG_02_Black",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_AFG_02_Tan",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_AFG_02_OD",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFUScar_AFG_BK",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    }
+                  ]
+                },
+                {
+                  "SlotName": "",
+                  "Items": [
+                    {
+                      "ClassName": "Snafu_ScarH_25RND_Mag_Snow",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "Snafu_ScarH_25RND_Mag_BK",
+                      "Chance": 1,
+                      "Quantity": {
+                        "Min": 0,
+                        "Max": 0
+                      },
+                      "Health": [
+                        {
+                          "Min": 0.7,
+                          "Max": 1,
+                          "Zone": ""
+                        }
+                      ],
+                      "InventoryAttachments": [],
+                      "InventoryCargo": [],
+                      "ConstructionPartsBuilt": [],
+                      "Sets": []
+                    },
+                    {
+                      "ClassName": "SNAFU_ScarH_100RND_Mag_Black",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -1925,20 +3710,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
+                  "ClassName": "Snafu_PKP_250RND_Mag",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -1984,20 +3756,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
+                  "ClassName": "Snafu_PKP_250RND_Mag",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -2043,20 +3802,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
+                  "ClassName": "Snafu_PKP_250RND_Mag",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -2102,20 +3848,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
+                  "ClassName": "Snafu_PKP_250RND_Mag",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -2161,20 +3894,7 @@
               "InventoryAttachments": [],
               "InventoryCargo": [
                 {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
+                  "ClassName": "Snafu_PKP_250RND_Mag",
                   "Chance": 1,
                   "Quantity": {
                     "Min": 0,
@@ -2209,7 +3929,7 @@
           "SlotName": "Hands",
           "Items": [
             {
-              "ClassName": "M4A1",
+              "ClassName": "Snafu_PKP_Black_GUN",
               "Chance": 1,
               "Quantity": {
                 "Min": 0,
@@ -2227,7 +3947,7 @@
                   "SlotName": "",
                   "Items": [
                     {
-                      "ClassName": "Mag_STANAG_30Rnd",
+                      "ClassName": "SNAFU_Normalized_Suppressor_Black",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -2246,83 +3966,7 @@
                       "Sets": []
                     },
                     {
-                      "ClassName": "Mag_STANAG_60Rnd",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "Mag_CMAG_10Rnd",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "Mag_CMAG_20Rnd",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "Mag_CMAG_30Rnd",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "Mag_CMAG_40Rnd",
+                      "ClassName": "SNAFU_Normalized_Suppressor_Green",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -2346,7 +3990,7 @@
                   "SlotName": "",
                   "Items": [
                     {
-                      "ClassName": "M4_CQBBttstck",
+                      "ClassName": "GhillieAtt_Tan",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -2365,7 +4009,7 @@
                       "Sets": []
                     },
                     {
-                      "ClassName": "M4_MPBttstck",
+                      "ClassName": "GhillieAtt_Woodland",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -2384,31 +4028,7 @@
                       "Sets": []
                     },
                     {
-                      "ClassName": "M4_OEBttstck",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    }
-                  ]
-                },
-                {
-                  "SlotName": "",
-                  "Items": [
-                    {
-                      "ClassName": "M4_MPHndgrd",
+                      "ClassName": "GhillieAtt_Mossy",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -2427,7 +4047,7 @@
                       "Sets": []
                     },
                     {
-                      "ClassName": "M4_PlasticHndgrd",
+                      "ClassName": "dzn_att_ghillie_winter",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -2446,7 +4066,7 @@
                       "Sets": []
                     },
                     {
-                      "ClassName": "M4_RISHndgrd",
+                      "ClassName": "dzn_att_ghillie_tandark",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -2470,947 +4090,7 @@
                   "SlotName": "",
                   "Items": [
                     {
-                      "ClassName": "ACOGOptic",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "ACOGOptic_6x",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "ReflexOptic",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [
-                        {
-                          "SlotName": "",
-                          "Items": [
-                            {
-                              "ClassName": "Battery9V",
-                              "Chance": 1,
-                              "Quantity": {
-                                "Min": 0,
-                                "Max": 0
-                              },
-                              "Health": [
-                                {
-                                  "Min": 0.7,
-                                  "Max": 1,
-                                  "Zone": ""
-                                }
-                              ],
-                              "InventoryAttachments": [],
-                              "InventoryCargo": [],
-                              "ConstructionPartsBuilt": [],
-                              "Sets": []
-                            }
-                          ]
-                        }
-                      ],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "M68Optic",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [
-                        {
-                          "SlotName": "",
-                          "Items": [
-                            {
-                              "ClassName": "Battery9V",
-                              "Chance": 1,
-                              "Quantity": {
-                                "Min": 0,
-                                "Max": 0
-                              },
-                              "Health": [
-                                {
-                                  "Min": 0.7,
-                                  "Max": 1,
-                                  "Zone": ""
-                                }
-                              ],
-                              "InventoryAttachments": [],
-                              "InventoryCargo": [],
-                              "ConstructionPartsBuilt": [],
-                              "Sets": []
-                            }
-                          ]
-                        }
-                      ],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "M4_T3NRDSOptic",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [
-                        {
-                          "SlotName": "",
-                          "Items": [
-                            {
-                              "ClassName": "Battery9V",
-                              "Chance": 1,
-                              "Quantity": {
-                                "Min": 0,
-                                "Max": 0
-                              },
-                              "Health": [
-                                {
-                                  "Min": 0.7,
-                                  "Max": 1,
-                                  "Zone": ""
-                                }
-                              ],
-                              "InventoryAttachments": [],
-                              "InventoryCargo": [],
-                              "ConstructionPartsBuilt": [],
-                              "Sets": []
-                            }
-                          ]
-                        }
-                      ],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "StarlightOptic",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [
-                        {
-                          "SlotName": "",
-                          "Items": [
-                            {
-                              "ClassName": "Battery9V",
-                              "Chance": 1,
-                              "Quantity": {
-                                "Min": 0,
-                                "Max": 0
-                              },
-                              "Health": [
-                                {
-                                  "Min": 0.7,
-                                  "Max": 1,
-                                  "Zone": ""
-                                }
-                              ],
-                              "InventoryAttachments": [],
-                              "InventoryCargo": [],
-                              "ConstructionPartsBuilt": [],
-                              "Sets": []
-                            }
-                          ]
-                        }
-                      ],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "M4_CarryHandleOptic",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    }
-                  ]
-                }
-              ],
-              "InventoryCargo": [],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            }
-          ]
-        }
-      ],
-      "InventoryCargo": [],
-      "ConstructionPartsBuilt": [],
-      "Sets": []
-    },
-    {
-      "ClassName": "",
-      "Chance": 1,
-      "Quantity": {
-        "Min": 0,
-        "Max": 0
-      },
-      "Health": [],
-      "InventoryAttachments": [
-        {
-          "SlotName": "Back",
-          "Items": [
-            {
-              "ClassName": "MMG_carrier_backpack_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            },
-            {
-              "ClassName": "MMG_mmps_bag_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            },
-            {
-              "ClassName": "MMG_supplybag_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            },
-            {
-              "ClassName": "MMG_assault_pack_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            },
-            {
-              "ClassName": "MMG_camelback_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            }
-          ]
-        },
-        {
-          "SlotName": "Hands",
-          "Items": [
-            {
-              "ClassName": "Aug",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [
-                {
-                  "SlotName": "",
-                  "Items": [
-                    {
-                      "ClassName": "Mag_Aug_30Rnd",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    }
-                  ]
-                }
-              ],
-              "InventoryCargo": [],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            }
-          ]
-        }
-      ],
-      "InventoryCargo": [],
-      "ConstructionPartsBuilt": [],
-      "Sets": []
-    },
-    {
-      "ClassName": "",
-      "Chance": 1,
-      "Quantity": {
-        "Min": 0,
-        "Max": 0
-      },
-      "Health": [],
-      "InventoryAttachments": [
-        {
-          "SlotName": "Back",
-          "Items": [
-            {
-              "ClassName": "MMG_carrier_backpack_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            },
-            {
-              "ClassName": "MMG_mmps_bag_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            },
-            {
-              "ClassName": "MMG_supplybag_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            },
-            {
-              "ClassName": "MMG_assault_pack_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            },
-            {
-              "ClassName": "MMG_camelback_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_Aug_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            }
-          ]
-        },
-        {
-          "SlotName": "Hands",
-          "Items": [
-            {
-              "ClassName": "AugShort",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [
-                {
-                  "SlotName": "",
-                  "Items": [
-                    {
-                      "ClassName": "Mag_Aug_30Rnd",
+                      "ClassName": "SNAFU_PKPBIPOD",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -3434,7 +4114,7 @@
                   "SlotName": "",
                   "Items": [
                     {
-                      "ClassName": "ACOGOptic",
+                      "ClassName": "Snafu_PKP_250RND_Mag",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -3448,551 +4128,17 @@
                         }
                       ],
                       "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "ACOGOptic_6x",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "ReflexOptic",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [
-                        {
-                          "SlotName": "",
-                          "Items": [
-                            {
-                              "ClassName": "Battery9V",
-                              "Chance": 1,
-                              "Quantity": {
-                                "Min": 0,
-                                "Max": 0
-                              },
-                              "Health": [
-                                {
-                                  "Min": 0.7,
-                                  "Max": 1,
-                                  "Zone": ""
-                                }
-                              ],
-                              "InventoryAttachments": [],
-                              "InventoryCargo": [],
-                              "ConstructionPartsBuilt": [],
-                              "Sets": []
-                            }
-                          ]
-                        }
-                      ],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "M68Optic",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [
-                        {
-                          "SlotName": "",
-                          "Items": [
-                            {
-                              "ClassName": "Battery9V",
-                              "Chance": 1,
-                              "Quantity": {
-                                "Min": 0,
-                                "Max": 0
-                              },
-                              "Health": [
-                                {
-                                  "Min": 0.7,
-                                  "Max": 1,
-                                  "Zone": ""
-                                }
-                              ],
-                              "InventoryAttachments": [],
-                              "InventoryCargo": [],
-                              "ConstructionPartsBuilt": [],
-                              "Sets": []
-                            }
-                          ]
-                        }
-                      ],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "M4_T3NRDSOptic",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [
-                        {
-                          "SlotName": "",
-                          "Items": [
-                            {
-                              "ClassName": "Battery9V",
-                              "Chance": 1,
-                              "Quantity": {
-                                "Min": 0,
-                                "Max": 0
-                              },
-                              "Health": [
-                                {
-                                  "Min": 0.7,
-                                  "Max": 1,
-                                  "Zone": ""
-                                }
-                              ],
-                              "InventoryAttachments": [],
-                              "InventoryCargo": [],
-                              "ConstructionPartsBuilt": [],
-                              "Sets": []
-                            }
-                          ]
-                        }
-                      ],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "StarlightOptic",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
-                        {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
-                        }
-                      ],
-                      "InventoryAttachments": [
-                        {
-                          "SlotName": "",
-                          "Items": [
-                            {
-                              "ClassName": "Battery9V",
-                              "Chance": 1,
-                              "Quantity": {
-                                "Min": 0,
-                                "Max": 0
-                              },
-                              "Health": [
-                                {
-                                  "Min": 0.7,
-                                  "Max": 1,
-                                  "Zone": ""
-                                }
-                              ],
-                              "InventoryAttachments": [],
-                              "InventoryCargo": [],
-                              "ConstructionPartsBuilt": [],
-                              "Sets": []
-                            }
-                          ]
-                        }
-                      ],
                       "InventoryCargo": [],
                       "ConstructionPartsBuilt": [],
                       "Sets": []
                     }
                   ]
-                }
-              ],
-              "InventoryCargo": [],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            }
-          ]
-        }
-      ],
-      "InventoryCargo": [],
-      "ConstructionPartsBuilt": [],
-      "Sets": []
-    },
-    {
-      "ClassName": "",
-      "Chance": 1,
-      "Quantity": {
-        "Min": 0,
-        "Max": 0
-      },
-      "Health": [],
-      "InventoryAttachments": [
-        {
-          "SlotName": "Back",
-          "Items": [
-            {
-              "ClassName": "MMG_carrier_backpack_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
                 },
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            },
-            {
-              "ClassName": "MMG_mmps_bag_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            },
-            {
-              "ClassName": "MMG_supplybag_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            },
-            {
-              "ClassName": "MMG_assault_pack_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            },
-            {
-              "ClassName": "MMG_camelback_alpine",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [],
-              "InventoryCargo": [
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "Mag_STANAG_30Rnd",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                },
-                {
-                  "ClassName": "BandageDressing",
-                  "Chance": 1,
-                  "Quantity": {
-                    "Min": 0,
-                    "Max": 0
-                  },
-                  "Health": [],
-                  "InventoryAttachments": [],
-                  "InventoryCargo": [],
-                  "ConstructionPartsBuilt": [],
-                  "Sets": []
-                }
-              ],
-              "ConstructionPartsBuilt": [],
-              "Sets": []
-            }
-          ]
-        },
-        {
-          "SlotName": "Hands",
-          "Items": [
-            {
-              "ClassName": "M16A2",
-              "Chance": 1,
-              "Quantity": {
-                "Min": 0,
-                "Max": 0
-              },
-              "Health": [
-                {
-                  "Min": 0.7,
-                  "Max": 1,
-                  "Zone": ""
-                }
-              ],
-              "InventoryAttachments": [
                 {
                   "SlotName": "",
                   "Items": [
                     {
-                      "ClassName": "Mag_STANAG_60Rnd",
+                      "ClassName": "SNAFU_AKAimpoint_M5",
                       "Chance": 1,
                       "Quantity": {
                         "Min": 0,
@@ -4005,26 +4151,32 @@
                           "Zone": ""
                         }
                       ],
-                      "InventoryAttachments": [],
-                      "InventoryCargo": [],
-                      "ConstructionPartsBuilt": [],
-                      "Sets": []
-                    },
-                    {
-                      "ClassName": "Mag_STANAG_30Rnd",
-                      "Chance": 1,
-                      "Quantity": {
-                        "Min": 0,
-                        "Max": 0
-                      },
-                      "Health": [
+                      "InventoryAttachments": [
                         {
-                          "Min": 0.7,
-                          "Max": 1,
-                          "Zone": ""
+                          "SlotName": "",
+                          "Items": [
+                            {
+                              "ClassName": "Battery9V",
+                              "Chance": 1,
+                              "Quantity": {
+                                "Min": 0,
+                                "Max": 0
+                              },
+                              "Health": [
+                                {
+                                  "Min": 0.7,
+                                  "Max": 1,
+                                  "Zone": ""
+                                }
+                              ],
+                              "InventoryAttachments": [],
+                              "InventoryCargo": [],
+                              "ConstructionPartsBuilt": [],
+                              "Sets": []
+                            }
+                          ]
                         }
                       ],
-                      "InventoryAttachments": [],
                       "InventoryCargo": [],
                       "ConstructionPartsBuilt": [],
                       "Sets": []
